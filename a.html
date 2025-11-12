@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <table border="3">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Section</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Akbar</td>
+                <td>26</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>Karthi</td>
+                <td>22</td>
+                <td>C</td>
+            </tr>
+        </tbody>
+    </table>
+    <fieldset>
+        <legend>Enter your details</legend>
+    <form>
+        <p>
+        <label for="username">Username</label>
+        <input id="username" type="text" name="Username" placeholder="Enter your name" required>
+        </p>
+        <p>
+        <label for="email">Email</label>
+        <input id="email" type="email" name="email" placeholder="Enter your email" required>
+        </p>
+        <p>
+        <label for="password">Password</label>
+        <input id="password" type="password" name="password" placeholder="Enter strong password" required
+        minlength="6"
+        maxlength="15">
+        </p>
+        </fieldset>
+        <label>Select your gender:</label>
+        <input id="gender" type="radio" name="gender">
+        <label>Male</label>
+        <input id="gender" type="radio" name="gender">
+        <label>Female</label>
+        <br></br>
+        <button>Submit</button>
+
+    </form>
+</body>
+</html>
