@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+body{
+    width: 100px;
+    height: 100%;
+
+}
+
+#flex-container{
+    border: 4px solid brown;
+    margin: 10px;
+    height: 60vh;
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 200px;
+}
+
+.box{
+    height: 150px;
+    background: grey;
+    border: 2px solid black;
+}

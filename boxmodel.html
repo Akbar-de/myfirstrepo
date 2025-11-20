@@ -1,28 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="stylesheet" href="boxmodel.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Box model</title>
-    <link rel="stylesheet" href="boxmodel.css">
+  </head>
+  <body>
+    <h1 id="head">Box model</h1>
+    <div class="box_model">
+      This div is used to demonstrate box model concept in css
+    </div>
+    <h1>THis is input</h1>
+    <input type="text" />
+    <h1>Positioning in css</h1>
 
-</head>
-<body>
-    <h1>Position in css</h1>
-    <ol>
-        <li>static</li>
-        <li>relative</li>
-        <li>absolute</li>
-        <li>fixed</li>
-        <li>sticky</li>
-    </ol>
-     <br></br>
-    <h1>Box model</h1>
-    <div class="box-model">This is a box model sample
+    <div class="sticky">
+      <nav>
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Contact</a>
+        <a href="">Products</a>
+      </nav>
     </div>
 
-    
-    <p class="static"> This is the static position</p>
-    
-</body>
+    <ul>
+      <li>Static</li>
+      <li>Relative</li>
+      <li>Absolute</li>
+      <li>Fixed</li>
+      <li>Sticky</li>
+    </ul>
+
+    <p class="static">This is static position</p>
+<br></br>
+    <div class="outer-relative">
+      <div class="inner-relative">Relative positioning</div>
+    </div>
+
+    <div class="parent-absolute">
+      <div class="child-absolute">Absolute positioning</div>
+    </div>
+  </body>
 </html>
