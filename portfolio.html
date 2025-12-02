@@ -3,76 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Resume</title>
-
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
 </head>
 <body>
-    <h1>AKBAR ALI</h1>
-   
-    <h4>EMAIL:akbarofcl4@gmail.com-----------Ph:8883859056----------Address:Tirunelveli</h4>
-    
-    <h2>Profile Summary</h2>
-    <p>Innovative and detail-oriented MERN Stack Developer with 2.10 years of experience in building and maintaining dynamic, high-performance web applications. Proficient in MongoDB, Express.js, React.js, and Node.js, with strong skills in developing responsive user interfaces, optimizing backend logic, and implementing RESTful APIs. Experienced in working with modern JavaScript (ES6+), state management tools, and reusable component design. Adept at collaborating in Agile teams, troubleshooting complex issues, and delivering clean, scalable, and maintainable code. Committed to continuous learning and leveraging modern technologies to build efficient, user-centric digital solutions.</p>
-    
+    <header class="head">
+        <nav class="head-nav">
+            <h2 class="logo">Portfolio.</h2>
+        
+            <ul class="head-nav-list">
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div>
+            <h1>Hi I'm Akbar Ali</h1>
+            <p>Innovative and detail-oriented MERN Stack Developer with 2.10 years of experience in building and maintaining dynamic, high-performance web applications. Proficient in MongoDB, Express.js, React.js, and Node.js, with strong skills in developing responsive user interfaces, optimizing backend logic, and implementing RESTful APIs. Experienced in working with modern JavaScript (ES6+), state management tools, and reusable component design. Adept at collaborating in Agile teams, troubleshooting complex issues, and delivering clean, scalable, and maintainable code. Committed to continuous learning and leveraging modern technologies to build efficient, user-centric digital solutions.</p>
+            <img src="Untitled design (2).png" alt="My Pic">
+        </div>
+    </section>
 
-    <table border="3">
-        <h2>Education History</h2>
-        <thead>
-            <tr>
-                <th>Course</th>
-                <th>Institution</th>
-                <th>YOP</th>
-                <th>Percentage</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>B.SC IT</td>
-                <td>Bharathiar University</td>
-                <td>2020</td>
-                <td>70</td>
-            </tr>
-            <tr>
-                <td>HSC</td>
-                <td>Bishop Roche School</td>
-                <td>2017</td>
-                <td>60</td>
-            </tr>
-            <tr>
-                <td>SSLC</td>
-                <td>Bishop Roche School</td>
-                <td>2015</td>
-                <td>84</td>
-            </tr>
-        </tbody>
-    </table>
-    <h3>Skills</h3>
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>MongoDB</li>
+    <section>
+        <div>
+            <h2>Education History</h2>
+            <div>
+                <h3>B.Sc IT</h3>
+                <p>RVS CAS</p>
+                <ul>
+                    <li>Score 70%</li>
+                    <li>SIH 2019</li>
+                </ul>
+            </div>
+            <div>
+                <h3>HSC</h3>
+                <p>Bishop Roche HR Sec School</p>
+                <ul>
+                    <li>Score 60%</li>
+                    <li>NSS</li>
+                </ul>
+            </div>
+            
+            <div>
+                <h3>SSLC</h3>
+                <p>Bishop Roche HR Sec School</p>
+                <ul>
+                    <li>Score 70%</li>
+                    <li>NCC</li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
+    <section>
+        <div>
+            <div>
+                <h2>My Projects</h2>
+                <img src="" alt="">
+                <h3>Tatkal Booking App</h3>
+                <p>This is the tatkal booking application for the train users</p>
+            </div>
+            <div>
+                <img src="" alt="">
+                <h3>Web Application - Liba</h3>
+                <p>This is the library management application for the college students</p>
+            </div>
+            <div>
+                <img src="" alt="">
+                <h3>Web Application - Manpower Agency</h3>
+                <p>Developing manpower web application for the local client</p>
+            </div>
+            <div>
+                <img src="" alt="">
+                <h3>Mobile application - Hiroo</h3>
+                <p>Hiroo is the mobile application for the staffing company</p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h3>Touch with me</h3>
+        <p>+91 8883859056</p>
+        <a href="https://www.linkedin.com/in/akbar-ali-sahib-85186017a/">Linked In</a>
+    </section>
 
-    </ul>
-    <fieldset>
-        <legend><h3>Get in touch</h3></legend>
-    <form>
-        <p>
-        <label for="name">Name</label>
-        <input id="name" type="text" name="name" placeholder="Enter your name" required>
-        </p>
-        <p>
-        <label for="email">Email</label>
-        <input id="email" type="email" name="email" placeholder="Enter your email" required>
-        </p>
-        <p>
-        <label for="contact">Contact No</label>
-        <input id="contact" type="number" name="contact" placeholder="Enter your contact number" required
-        minlength="6"
-        maxlength="15">
-        </p>
-        <button>Submit</button>
-        </fieldset>
+    <footer class="footer">
+      <p>© 2025 My business - All right reserved</p>
+    </footer>
 </body>
 </html>

@@ -1,0 +1,40 @@
+:root{
+    --primary:#b0ff1c;
+    --bg-dark:#0a0a0a;
+    --text:#3634349a;
+    --bg-light:#eeede3cf;
+    --text-gray: #56544c;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans';
+}
+
+body{
+    background: var(--bg-dark);
+    color: var(--bg-light);
+    overflow-x: hidden;
+}
+
+.head-nav{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.header{
+    
+}
